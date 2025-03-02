@@ -7,12 +7,11 @@ let b = 20;
 let c = 12;
 let d = "15";
 const e = 15;
-/*2. then, display the following results of the required tasks below:
-a. Display the sum of the declared variables [a,b,c,d] and constant [e] combined.*/
+/*a. sum of the declared variables [a,b,c,d] and constant [e] combined.*/
 sum = a + b + c + d + e;
 console.log (sum);
-/*b. Compare the values of variable d and constant e using relational operators [>, <, =>,
-<=, and ===], then display the results.*/
+/*b. Compare=ing  values of variable d and constant e  [>, <, =>,
+<=, and ===] */
 if (d>e) {
     console.log ('d is greater than e');
 } else {
@@ -38,16 +37,16 @@ if (d===e) {
 } else {
     console.log ('they are not equal');
 }
-//c. Declare new variables to store the result/s of the following operations, then after, display the results:
-//1. Subtract all the values of the declared variables.
+//c.a new variables to store the result
+//1. Subtracting all the values of the variables.
 let subtraction = a - b - c -d - e;
 console.log (subtraction);
-//2. Multiply the values of variable a and c, divided by constant e.
+//2. Multiplying the values a and c, divided by e.
 let multiply = (a * c)/ e;
 console.log(multiply)
-//3. Display the exponent value of constant e raise to the power of variable c.
+//3.exponent value of constant e raise to the power of variable c.
 let exponent = e ** c;
 console.log(exponent);
-//4. Reassign the value of c.3 to constant e, then display the result.*/
+//4. Reassigning the value of c.3 to constant e*/
 let newE = exponent;
 console.log(newE);
