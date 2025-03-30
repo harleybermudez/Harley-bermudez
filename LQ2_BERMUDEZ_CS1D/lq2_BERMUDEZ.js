@@ -4,7 +4,7 @@ let address = prompt("Enter your Address:");
 let age =prompt("Enter your Age:");
 let classRole = prompt("Enter your Class Role (Officer, Student, Teacher):");
 let course = prompt("Enter your Course (BSCS, BSM, BAEL):");
-if (course === "BSCS" || course === "BSM" || course === "BAEL") {// condition using stirct equality to detect the course
+if (course === "BSCS" || course === "BSM" || course === "BAEL") {// condition using stirct equality to detect the course and role
     if (classRole === "Officer") {
         alert(`Welcome Officer of ${course}`);
     } else if (classRole === "Student") {
